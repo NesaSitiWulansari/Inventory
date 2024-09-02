@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan PDF</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .line-title{
+            border: 0;
+            border-style: inset;
+            border-top: 1px solid #000;
+        }
+    </style>
+
+</head><body>
+    <table style="width: 100%; line-height: 1.4;">
+        <tr>
+            <td>
+                <img src="assets/img/Logoyayasan.png" style="position: auto; width: 90px; height: auto;">
+            </td>
+            <td align="center">
+                YAYASAN ANDIR MUKTI BANDUNG
+                <span style="font-weight: bold;">
+                    <br>SEKOLAH DASAR ANDIR MUKTI
+                </span>
+                <br>AKREDITASI "B" (BAIK)
+                <br>Jl. Jend. Sudirman Blk No. 799 Kec. Bandung Kulon Kota Bandung
+                <br>No. Telp : (022) 20594906 email : sd.andirmukti1967@gmail.com
+            </td>
+            <td align="right">
+                <img src="assets/img/Logo.png" style="position: auto; width: 90px; height: auto;">
+            </td>
+        </tr>
+    </table>
+
+    <hr class="line-title">
+
+    <p align="center" style="font-weight: bold;">
+        LAPORAN PEMBELIAN
+        <br>SD ANDIR MUKTI
+    </p><br><br>
+
+    <table style="width: 50%;">
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: login</p>
+<p>Filename: pdf/laporanpembelian.php</p>
+<p>Line Number: 48</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\views\Laporan\pdf\laporanpembelian.php<br />
+			Line: 48<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\controllers\Laporan.php<br />
+			Line: 149<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div></td>
+        </tr>
+        <tr>
+            <td>Jabatan</td>
+            <td>:</td>
+            <td>Kepala Sekolah</td>
+        </tr>
+        
+    
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: beli</p>
+<p>Filename: pdf/laporanpembelian.php</p>
+<p>Line Number: 56</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\views\Laporan\pdf\laporanpembelian.php<br />
+			Line: 56<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\controllers\Laporan.php<br />
+			Line: 149<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: pdf/laporanpembelian.php</p>
+<p>Line Number: 56</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\views\Laporan\pdf\laporanpembelian.php<br />
+			Line: 56<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\controllers\Laporan.php<br />
+			Line: 149<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>    </table>
+
+    <br><br>
+    <table border="1" width="100%">
+        <tr>
+            <th>No</th>    
+            <th>Nama Kategori</th>
+            <th>Nama Barang</th>
+            <th>Jumlah</th>
+            <th>Harga</th>
+            <th>Total</th>
+        </tr>
+                    
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: detailbeli</p>
+<p>Filename: pdf/laporanpembelian.php</p>
+<p>Line Number: 117</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\views\Laporan\pdf\laporanpembelian.php<br />
+			Line: 117<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\controllers\Laporan.php<br />
+			Line: 149<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: pdf/laporanpembelian.php</p>
+<p>Line Number: 117</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\views\Laporan\pdf\laporanpembelian.php<br />
+			Line: 117<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\application\controllers\Laporan.php<br />
+			Line: 149<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\xampp\htdocs\TugasAkhir\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>  
+    </table>
+    <br><br>
+
+    <table width="50%">
+        <tr>
+            <td><b>Jumlah</b></td>
+            <td><b>:</b></td>
+            <td><b>Rp. 0</b></td>
+        </tr>
+    </table>
+    
+</body></html>
